@@ -1,0 +1,25 @@
+table{
+	margin-left: 50%;
+	background-color: aliceblue;
+}
+.background{
+	z-index: 1;
+	position: absolute;
+	max-width: 50%;
+	margin-left: 200px;
+	margin-right: 200px;
+}
+.picture{
+	z-index: 2;
+	border: solid dimgray; 
+	width: 400px;
+	height: 350px; 
+	margin-top: 50px; 
+	margin-bottom: 50px;
+}
+.style{
+	border:5px solid indigo; 
+	text-align: center; 
+	background-image: url("bacckground.jpg"); 
+	background-position: relative center;
+}
